@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var browserify = require('browserify');
-var reactify = require(reactify); // Converts jsx to js
+var reactify = require('reactify'); // Converts jsx to js
 var source = require('vinyl-source-stream'); // Converts string to a stream
 
 gulp.task('browserify', function () {
